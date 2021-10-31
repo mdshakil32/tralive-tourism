@@ -1,3 +1,15 @@
+# Live web link
+
+# Welcome to Tralive
+This is a simple website about Tourism where people can book their currently offering packages.
+Popular tourist spots are in those packages and their prices.
+
+# Developing process of this website
+This is a react project. For designing we have used bootstrap and css.
+For routing , React Router has been used.
+For login system Firebase has been used.
+And finaly as Database Mongodb has been used.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

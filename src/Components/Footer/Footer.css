@@ -1,0 +1,16 @@
+footer{
+    background-color: #00095e;
+    color: #8a8fbe;
+    padding: 50px 0;
+}
+.social-media img{
+    width: 30px;
+    margin: 0px 3px;
+}
+footer a{
+    color: #8a8fbe;
+    
+}
+footer ul li{
+    margin: 10px 0;
+}
