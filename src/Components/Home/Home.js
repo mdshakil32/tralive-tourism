@@ -5,6 +5,7 @@ import { useHistory } from 'react-router-dom';
 import Banner from '../Banner/Banner';
 
 import TravelService from '../TravelService/TravelService';
+import WeOffer from '../WeOffer/WeOffer';
 import "./Home.css"
 
 
@@ -61,6 +62,9 @@ const Home = () => {
 
             {/* travel service  */}
             <TravelService></TravelService>
+
+            {/* we offer  */}
+            <WeOffer></WeOffer>
             
         </div>
     );

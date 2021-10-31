@@ -14,6 +14,7 @@ import ManageAllOrder from './Components/ManageAllOrder/ManageAllOrder';
 import MyOrders from './Components/MyOrders/MyOrders';
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
+import WeOffer from './Components/WeOffer/WeOffer';
 
 
 function App() {
