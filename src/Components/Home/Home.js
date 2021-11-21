@@ -38,7 +38,7 @@ const Home = () => {
             <p className=" text-center MY-4 text-primary fw-bold">Check Our Best Promotional Tour</p>
             <h1 className=" text-center my-4">Ongoing Events</h1>
   
-            <div className="row">
+            <div id="events" className="row">
 
                 {
                     places.map(place => <div

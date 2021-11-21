@@ -3,7 +3,7 @@ import React from 'react';
 const TravelService = () => {
     return (
         // travel-service / FAQ 
-        <div className="travel-service container my-5 py-3">
+        <div className="travel-service container my-5 py-3 ">
             
             <div className="row">
 
@@ -12,18 +12,18 @@ const TravelService = () => {
                     <p className="common-p">FAQ</p>
                 </div>
 
-                <div className="col-md-6">
-                <div className="accordion accordion-flush p-4 mt-3" id="accordionFlushExample">
+                <div className="col-md-6 mt-5">
+                <div className="accordion  p-4 mt-3 shadow-lg" id="accordionFlushExample">
 
                 {/* accordion 1st item  */}
                     <div className="accordion-item">
-                        <h2 className="accordion-header" id="flush-headingOne">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h2 className="accordion-header" id="headingOne">
+                        <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Starts the automated process.
 
                         </button>
                         </h2>
-                        <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className="accordion-body">The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare.</div>
                         </div>
                     </div>
@@ -31,12 +31,12 @@ const TravelService = () => {
                     {/* accordion end item  */}
 
                     <div className="accordion-item">
-                        <h2 className="accordion-header" id="flush-headingTwo">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h2 className="accordion-header" id="headingTwo">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             The automated process starts.
                         </button>
                         </h2>
-                        <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div className="accordion-body">The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare.</div>
                         </div>
                     </div>
@@ -44,34 +44,37 @@ const TravelService = () => {
                     {/* accordion 3rd item  */}
 
                     <div className="accordion-item">
-                        <h2 className="accordion-header" id="flush-headingThree">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h2 className="accordion-header" id="headingThree">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Automated process starts.
                         </button>
                         </h2>
-                        <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div className="accordion-body">The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare.</div>
                         </div>
                     </div>
 
                     {/* accordion 4th item  */}
-
                     <div className="accordion-item">
-                        <h2 className="accordion-header" id="flush-headingFour">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <h2 className="accordion-header" id="headingFour">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             Process the automated magic.
                         </button>
                         </h2>
-                        <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                        <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div className="accordion-body">The automated process starts as soon as your clothes go into the machine. Duis cursus, mi quis viverra ornare.</div>
                         </div>
                     </div>
+
+                    
+
+                    
 
 
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="travel-service-img p-3">
+                    <div className="travel-service-img p-5">
                         <img className="img-fluid" src="https://i.ibb.co/7RnjVVR/xabout2-png-pagespeed-ic-FKuxbsbrr-T.webp" alt="" />
                     </div>
                 </div>

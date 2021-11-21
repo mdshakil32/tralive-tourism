@@ -11,14 +11,14 @@ const ManageAllOrder = () => {
     const history = useHistory();
 
     useEffect(()=>{
-        fetch("https://evening-depths-82308.herokuapp.com/orders")
+        fetch("http://localhost:5000/orders")
         .then(res => res.json())
         .then(data => setOrders(data))
     },[]);
 
     // delete item 
     const handleDelete =(id)=>{
-        const url = `https://evening-depths-82308.herokuapp.com/orders/${id}`;
+        const url = `http://localhost:5000/orders/${id}`;
         fetch(url,{
             method:"DELETE",
         })
@@ -31,6 +31,17 @@ const ManageAllOrder = () => {
                 setOrders(remainigOrder);
             }
         })
+
+    }
+
+    // handle update 
+    const handleUpdate =(id)=>{
+        // const url = `http://localhost:5000/orders/${id}`;
+        // fetch(url,{
+        //     // method:"DELETE",
+        // })
+        // .then(console.log('update clicked:',id))
+        
 
     }
 
@@ -62,6 +73,7 @@ const ManageAllOrder = () => {
                                 <td data-label="Tour Package">{order.title}</td>
                                 <td data-label="Status">{order.status} </td>
                                 <td data-label="Actions">
+                                    <button onClick={()=>handleUpdate(order._id) } className="btn btn-info me-1 mb-1">Update</button>
                                     <button onClick={()=>handleDelete(order._id) } className="btn btn-danger" >Delete</button>
                                 </td>
                             </tr>

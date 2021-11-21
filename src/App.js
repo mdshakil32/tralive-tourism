@@ -34,17 +34,17 @@ function App() {
               <Home></Home>
             </Route>
 
-            <PrivateRoute path="/manageAllOrder">
+            <Route path="/manageAllOrder">
               <ManageAllOrder></ManageAllOrder>
-            </PrivateRoute>
+            </Route>
 
-            <PrivateRoute path="/myOrders">
+            <Route path="/myOrders">
               <MyOrders></MyOrders>
-            </PrivateRoute>
+            </Route>
 
-            <PrivateRoute path="/addNewPlace">
+            <Route path="/addNewPlace">
               <AddNewPlace></AddNewPlace>
-            </PrivateRoute>
+            </Route>
 
             <PrivateRoute path="/booking/:id">
               <Booking></Booking>

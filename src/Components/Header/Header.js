@@ -25,11 +25,10 @@ const Header = () => {
                 </li>
 
                 <li className="nav-item dropdown">
-                    {
-                        user.email && <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Dashboard
                     </Link>
-                    }
+                    
                     
                     <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
                     
