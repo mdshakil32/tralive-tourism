@@ -1,23 +1,30 @@
 .common-h1 {
-    color: #00095e;
-    line-height: 1.2;
-    font-family: "Josefin Sans",sans-serif;
-    font-weight: 700;
+  color: #00095e;
+  line-height: 1.2;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
 }
-.m-top{
-    margin-top: 100px;
+.m-top {
+  margin-top: 100px;
 }
-.common-p{
-    font-size: 20px;
-    color: #00095e;
-    margin-bottom: 40px;
-    font-weight: 400;
-    line-height: 1.6;
-    font-family: "Roboto",sans-serif;
+.common-p {
+  font-size: 20px;
+  color: #00095e;
+  margin-bottom: 40px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
 }
-.single-card{
-    padding: 10px;
-    margin: 15px 0;
-    border-radius: 10px;
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.082);
+.single-card {
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.082);
+  height: 520px;
+}
+
+.single-card img {
+  /* max-width: 276px; */
+  /* height: 188px; */
+  margin: 0 auto;
 }

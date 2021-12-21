@@ -1,7 +1,8 @@
 {
   "projects": {
     "default": "volunteer-network-3105c",
-    "firebase use": "tralive-5a85c"
+    "firebase use": "tralive-5a85c",
+    "y": "tralive-5a85c"
   },
   "targets": {}
 }

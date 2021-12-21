@@ -1,0 +1,19 @@
+.fisrt-column-div1,
+.fisrt-column-div2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0;
+  padding: 20px;
+  color: white;
+}
+.fisrt-column.div p {
+  display: none;
+}
+.fisrt-column-div1 {
+  background-image: url(https://i.ibb.co/nkdkwBH/services-1.jpg);
+  height: 300px;
+}
+.fisrt-column-div2 {
+  background-image: url(https://i.ibb.co/ZTsMNpR/services-2.jpg);
+  height: 400px;
+}

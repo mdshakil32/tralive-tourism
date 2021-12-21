@@ -9,8 +9,8 @@ const Footer = () => {
                 <div className="row">
 
                     {/* footer left content  */}
-                    <div className="col-md-4 px-3">
-                        <div>
+                    <div data-aos="fade-up" className="col-md-4 px-3">
+                        <div >
                         <img className="nav-logo" src="https://i.ibb.co/T0sS9Rx/xlogo2-footer-png-pagespeed-ic-VOg-RFL1-W6n.webp" alt="" />
                         </div>
                         <p className="my-4">Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisi ufsit aliquip.</p>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
 
                     {/* footer middle content  */}
-                    <div className="col-md-4">
+                    <div data-aos="fade-up" className="col-md-4">
                         <h4 className="text-white">Navigation</h4>
                         <ul className="list-unstyled">
                             <li >
@@ -53,7 +53,7 @@ const Footer = () => {
                     </div>
 
                     {/* footer right content  */}
-                    <div className="col-md-4">
+                    <div data-aos="fade-up" className="col-md-4">
                         <h4 className="text-white">Contact Us</h4>
                         <p>76/A, Green Lane, Dhanmondi, NYC</p>
                         <p>demomail89@gmail.com</p>

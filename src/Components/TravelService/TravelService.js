@@ -7,13 +7,13 @@ const TravelService = () => {
             
             <div className="row">
 
-                <div className="col-md-12 text-center">
+                <div data-aos="fade-up" className="col-md-12 text-center">
                     <h1 className="common-h1">Full range of travel service</h1>
                     <p className="common-p">FAQ</p>
                 </div>
 
                 <div className="col-md-6 mt-5">
-                <div className="accordion  p-4 mt-3 shadow-lg" id="accordionFlushExample">
+                <div data-aos="fade-left" className="accordion  p-4 mt-3 shadow-lg" id="accordionFlushExample">
 
                 {/* accordion 1st item  */}
                     <div className="accordion-item">
@@ -75,7 +75,7 @@ const TravelService = () => {
                 </div>
                 <div className="col-md-6">
                     <div className="travel-service-img p-5">
-                        <img className="img-fluid" src="https://i.ibb.co/7RnjVVR/xabout2-png-pagespeed-ic-FKuxbsbrr-T.webp" alt="" />
+                        <img data-aos="fade-right" className="img-fluid" src="https://i.ibb.co/7RnjVVR/xabout2-png-pagespeed-ic-FKuxbsbrr-T.webp" alt="" />
                     </div>
                 </div>
             </div>

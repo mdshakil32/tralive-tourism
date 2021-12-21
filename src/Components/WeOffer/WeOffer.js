@@ -4,10 +4,10 @@ import "./WeOffer.css"
 const WeOffer = () => {
     return (
         <div className="container my-5">
-            <h1 className="common-h1 my-5 text-center">What We offer</h1>
+            <h1 data-aos="fade-up" className="common-h1 my-5 text-center">What We offer</h1>
             <div className="row">
                 <div className="col-md-6">
-                    <div className="row text-center">
+                    <div data-aos="fade-left" className="row text-center">
                         <div className="col-md-6 ">
                         <div className="we-offer-card mx-1 my-3 shadow-lg">
                             <p className="fs-1 text-warning"><i className="fas fa-dollar-sign"></i></p>
@@ -34,7 +34,7 @@ const WeOffer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 p-2">
+                <div data-aos="fade-right" className="col-md-6 p-2">
                     <h3 className="mb-4 mt-2">Get Adventure Experience</h3>
                     <p className="lh-lg">Adventure service average visitors eu volutpat. Sed viverra tellus in hac habitasse platea dictumst vestibulum rhoncus. What is the pull of the ball tomorrow? No one needs to be pregnant with their partners. The ugly mass but the element of time but poverty.</p>
                     <div className="row">

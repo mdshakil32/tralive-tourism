@@ -30,7 +30,7 @@ const Booking = () => {
         const email = user.email;
         const status = "pending";
         const newOrder = {name,email,title,price,address,image,status};
-        console.log(newOrder);
+        console.log('newOrder',newOrder);
 
         fetch('https://evening-depths-82308.herokuapp.com/orders',{
             method:"POST",

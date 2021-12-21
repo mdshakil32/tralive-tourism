@@ -35,6 +35,7 @@ const MyOrders = () => {
             }
         })  
     }
+    console.log(orders);
 
     return (
 
